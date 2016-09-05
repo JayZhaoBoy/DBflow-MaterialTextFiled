@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+
+        android:id="@+id/main2_mt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:mtf_animationDuration="500"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@mipmap/ic_launcher"
+        app:mtf_labelColor="@android:color/holo_blue_dark">
+
+
+        <EditText
+            android:id="@+id/mian2_et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#666"
+            android:textSize="15sp"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:mtf_animationDuration="500"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@mipmap/ic_launcher"
+        app:mtf_labelColor="@android:color/holo_blue_dark">
+
+        <EditText
+            android:id="@+id/main2_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#666"
+            android:textSize="15sp"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/main2_bt_enter"
+            android:text="@string/enter"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

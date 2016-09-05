@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DBflow</string>
+    <!--MainActivity -->
+    <string name="enter">登录</string>
+    <string name="regist">注册</string>
+    <!--MainActivity -->
+
+</resources>
